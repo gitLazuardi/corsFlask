@@ -9,7 +9,7 @@ def holloWorld():
 
 @app.route("/get", methods=["GET"])
 def helloWorld():
-  return jsonify({"msg": "test orogin"})
+  return jsonify({"msg": "test oroginn"})
 
 @app.route("/login", methods=["POST"])
 @cross_origin()
